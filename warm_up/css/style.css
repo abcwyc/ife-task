@@ -1,0 +1,66 @@
+*{ margin:0; padding:0; list-style:none;}
+/*img{ border:0;}*/
+a{text-decoration: none; color: #666; }
+h2,p{color:#666; font-family: "Microsoft Yahei"; }
+body{ padding-top: 75px;}
+
+.header{ position: fixed; top: 0; height: 60px; width:100%; background:#F5F5F5;}
+.nav{ width:960px; margin:0 auto; overflow:hidden;}
+.nav ul li{ height:40px; line-height:40px; float:left; padding:10px 10px; margin:0px 5px;position:relative;}
+.nav ul li a{ color:#666; font-family:'Microsoft Yahei'; font-size:14px; text-decoration:none;}
+.nav ul li a:hover{ color:#000; text-decoration:none;}
+.nav ul li span{ display:block; position:absolute; width:0px; height:0px; background:#1FAEFF; top:58px; left:50%;}/* nav end.*/
+
+/*-----------------------------------*/
+.main{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+.main a{
+    display: block;
+    float:left;
+    margin: 0 10px;
+    background-color: #F5F5F5;
+    width: 300px;
+    min-height: 600px;
+}
+.main a:hover h2 , .main a:hover p{
+    color: #000;
+}
+.box img{
+    max-width: 300px;
+    display: inline-block;
+}
+.box h2{
+    margin: 0 atuo;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.box p{
+    text-indent: 2em;
+    line-height: 1.8;
+    max-width: 270px;
+    padding-left: 20px;
+}
+
+#hr{
+    border-top:1px solid #999;;
+    position: relative;
+    top:50px;
+    max-width:1200px;
+    margin: 0 auto; 
+}
+/*
+.footer a{
+
+}
+ .theLink{
+    background: url(image/weibo_logo_w40.png);
+    margin: 0 auto;
+        display: block;
+    width: 40px; height: 40px;
+}
+.theLink:hover{
+    background: url(image/weibo_logo_w40.png) no-repeat 0 -40px;
+}*/
